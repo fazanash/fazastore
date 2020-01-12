@@ -1,0 +1,269 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/all.css">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Montserrat:200i,400,600&display=swap"
+        rel="stylesheet">
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Checkout</title>
+</head>
+
+<body>
+    <!-- Cart Header -->
+    <div class="container cart-header">
+        <div class="row my-5 text-center">
+            <div class="col">
+                <h3>Your Cart</h3>
+                <p>Pastikan barang Anda sudah terbayar</p>
+            </div>
+        </div>
+    </div>
+    <!-- Akhir Cart Header -->
+
+    <!-- Breadcrumb -->
+    <div class="container mt-5">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb cart-breadchumb bg-transparent pl-0">
+                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                <li class="breadcrumb-item"><a href="single_hatty_bomb.html">Product: Hatty Bomb</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Cart Checkout</li>
+            </ol>
+        </nav>
+    </div>
+    <!-- Akhir Breadcrumb -->
+
+    <!-- Checkout -->
+    <section class="checkout">
+        <div class="container">
+            <div class="row justify-content-between mb-5">
+                <div class="col-lg-6">
+                    <h4 class="mb-4">Your Items</h4>
+                    <div class="row mb-4">
+                        <div class="col-2">
+                            <img src="img/cart/5.png">
+                        </div>
+                        <div class="col-5">
+                            <h5 class="m-0">Hatty Bomb</h5>
+                            <p class="m-0" style="color: #313131;">IDR 190.300</p>
+                        </div>
+                        <div class="col-4">
+                            <button type="button" class="btn btn-sm" style="background-color: #EAEAEF; color: white;"><i class="fas fa-minus-circle"></i></button>
+                            <span class="mx-2">150</span>
+                            <button type="button" class="btn btn-sm btn-success"><i class="fas fa-plus-circle"></i></button>
+                        </div>
+                        <div class="col-1">
+                            <button type="button" class="btn btn-sm btn-danger"><i class="fas fa-times-circle"></i></button>
+                        </div>
+                    </div>
+                    <div class="row mb-4">
+                        <div class="col-2">
+                            <img src="img/cart/2.png">
+                        </div>
+                        <div class="col-5">
+                            <h5 class="m-0">Jeans Papp</h5>
+                            <p class="m-0" style="color: #313131;">IDR 350.000</p>
+                        </div>
+                        <div class="col-4">
+                            <button type="button" class="btn btn-sm" style="background-color: #EAEAEF; color: white;"><i
+                                    class="fas fa-minus-circle"></i></button>
+                            <span class="mx-2">18</span>
+                            <button type="button" class="btn btn-sm btn-success"><i
+                                    class="fas fa-plus-circle"></i></button>
+                        </div>
+                        <div class="col-1">
+                            <button type="button" class="btn btn-sm btn-danger"><i
+                                    class="fas fa-times-circle"></i></button>
+                        </div>
+                    </div>
+                    <h4 class="mb-3" style="margin-top: 100px;">Your Address</h4>
+                    <form>
+                        <div class="form-group">
+                            <label for="address">Address</label>
+                            <input type="text" class="form-control" id="Address"
+                                placeholder="Alamat lengkap">
+                        </div>
+                        <div class="form-group">
+                            <label for="address2">Address II</label>
+                            <input type="text" class="form-control" id="Address2" placeholder="Alamat tambahan">
+                        </div>
+                        <div class="form-group">
+                            <label for="city">Select City</label>
+                            <select class="custom-select">
+                                <option selected>Select City</option>
+                                <option value="1">Jakarta</option>
+                                <option value="2">Kuala Lumpur</option>
+                                <option value="3">Makkah</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="counrty">Select Country</label>
+                            <select class="custom-select">
+                                <option selected>Select Counrty</option>
+                                <option value="1">Indonesia</option>
+                                <option value="2">Malaysia</option>
+                                <option value="3">Arab Saudi</option>
+                            </select>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-lg-5">
+                    <div class="card rounded-0 checkout-detail">
+                        <div class="card-body">
+                            <h5 class="card-title">Informasi Biaya</h5>
+                            <div class="row mb-3">
+                                <div class="col">
+                                    <h6 class="m-0">Hatty Bomb</h6>
+                                    <small style="color: #313131;">150 Items</small>
+                                </div>
+                                <div class="col">
+                                    <h6 class="m-0 d-flex justify-content-end align-self-center text-success">IDR 28.540.000</h6>
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col">
+                                    <h6 class="m-0">Jeans Papp</h6>
+                                    <small style="color: #313131;">18 Items</small>
+                                </div>
+                                <div class="col">
+                                    <h6 class="m-0 d-flex justify-content-end align-self-center text-success">IDR
+                                        6.300.000</h6>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row mb-3">
+                                <div class="col">
+                                    <h6 class="m-0">Courier</h6>
+                                    <small style="color: #313131;">JNE Express</small>
+                                </div>
+                                <div class="col">
+                                    <h6 class="m-0 d-flex justify-content-end align-self-center text-success">IDR
+                                        125.000</h6>
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col">
+                                    <h6 class="m-0">Tax</h6>
+                                    <small style="color: #313131;">Negara 2,5 %</small>
+                                </div>
+                                <div class="col">
+                                    <h6 class="m-0 d-flex justify-content-end align-self-center text-success">IDR
+                                        500.00</h6>
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col">
+                                    <h6 class="m-0">Eid Promo</h6>
+                                    <small style="color: #313131;">Discount 10%</small>
+                                </div>
+                                <div class="col">
+                                    <h6 class="m-0 d-flex justify-content-end align-self-center text-danger">-IDR
+                                        450.000</h6>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row mb-3">
+                                <div class="col">
+                                    <h6 class="m-0 max-pay">Total Harga</h6>
+                                </div>
+                                <div class="col">
+                                    <h6 class="m-0 max-pay d-flex justify-content-end align-self-center text-primary">IDR
+                                        35.015.500</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mt-3">
+                        <div class="col">
+                            <a href="single_hatty_bomb.html" style="text-decoration: none;">
+                                <button type="button" class="btn btn-block" style="background-color: #EAEAEF; color: #ADADAD;">Cancel</button>
+                            </a>
+                        </div>
+                        <div class="col">
+                            <button type="button" class="btn btn-block btn-warning" data-toggle="modal" data-target="#checkoutModal">Checkout</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Akhir Chekcout -->
+
+    <!-- Modal -->
+    <div class="modal fade checkout-modal-success" id="checkoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body text-center">
+                    <img class="mb-4" src="img/cart/succes_chekout.png">
+                    <h3>Checkout Berhasil</h3>
+                    <p>Anda akan mendapatkan barang <br> dalam beberapa hari</p>
+                    <a href="index.html">
+                        <button type="button" class="btn mt-3" style="background-color: #EAEAEF; color: #ADADAD;">Home</button>
+                    </a>    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Akhir Modal -->
+
+    <!-- Footer -->
+    <footer class="border-top p-5">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-1">
+                    <a href="index.html">
+                        <img src="img/logo_smal.png">
+                    </a>
+                </div>
+                <div class="col-4 col-sm-4 text-right">
+                    <a href="https://facebook.com/fazanash">
+                        <img src="img/social/fb.png">
+                    </a>
+                    <a href="https://twitter.com/fazanash">
+                        <img src="img/social/tw.png">
+                    </a>
+                    <a href="https://instagram.com/fazanash">
+                        <img src="img/social/ig.png">
+                    </a>
+                </div>
+            </div>
+            <div class="row mt-3 pr-0 justify-content-between">
+                <div class="col-5 col-sm">
+                    <p>All right reserved by Faza Store 2020</p>
+                </div>
+                <div class="col-6 col-sm">
+                    <nav class="nav justify-content-end text-uppercase">
+                        <a class="nav-link active" href="#">Jobs</a>
+                        <a class="nav-link" href="#">Developer</a>
+                        <a class="nav-link" href="#">Terms</a>
+                        <a class="nav-link pr-0">Privacy Policy</a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Akhir Footer -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/all.js"></script>
+</body>
+
+</html>
